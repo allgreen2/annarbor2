@@ -265,8 +265,8 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    height: calc(100vh - 170px);
-    min-height: 400px;
+    height: calc(30vh - 170px);
+    min-height: 200px;
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
@@ -292,7 +292,7 @@ a:focus {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, .3);
+    background: #789bb3;
     z-index: 1;
 }
 
@@ -304,8 +304,8 @@ a:focus {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(100vh - 170px);
-    min-height: 400px;
+    height: calc(30vh - 170px);
+    min-height: 200px;
 }
 
 .carousel .carousel-caption p {
@@ -317,7 +317,7 @@ a:focus {
 
 .carousel .carousel-caption h1 {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     margin-bottom: 35px;
 }
